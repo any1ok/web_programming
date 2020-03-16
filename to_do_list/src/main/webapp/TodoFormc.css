@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body>h1{
+  text-align:center;
+}
+section{
+  margin:30px;
+}
+.todo{
+  border:solid 1px;
+}
+.back{
+ padding:30px 100px;
+}

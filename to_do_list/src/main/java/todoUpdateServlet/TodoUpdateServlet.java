@@ -36,6 +36,7 @@ public class TodoUpdateServlet extends HttpServlet {
 		
 		String state = request.getParameter("state");
 		String todo_id = request.getParameter("id");
+		console.log(1123);
 		dao.updateRole(state, todo_id);
 		
 		
